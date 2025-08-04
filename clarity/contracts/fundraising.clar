@@ -15,7 +15,7 @@
 (define-constant default-duration u4320) ;; Duration in *Bitcoin* blocks. This default value means is if a block is 10 minutes, this is roughly 30 days.
 
 ;; Data vars
-(define-data-var is-campaign-initialized bool false)
+(define-data-var is-campaign-initialized bool false)é
 (define-data-var is-campaign-cancelled bool false)
 (define-data-var beneficiary principal contract-owner)
 (define-data-var campaign-duration uint u173000)
